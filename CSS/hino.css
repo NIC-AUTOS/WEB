@@ -1,0 +1,86 @@
+@font-face {
+    font-family: Toyota;
+    src: url("fontToyota.ttf");
+}
+body {
+    font-family: Toyota;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.header{
+    text-align: center;
+    color:  white;
+    background: rgb(40,0,96);
+    background: linear-gradient(90deg, rgba(40,0,96,1) 7%, rgba(22,97,255,1) 96%); 
+    padding: 50px;
+    font-size: 25px;
+}
+
+
+.contenedor_marcas {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 10px;
+    padding: 40px 50px;
+}
+
+.tarjeta {
+    box-sizing: border-box; 
+    align-items: center;
+    border: 1px solid white;
+    padding: 10px;
+    max-width: 500px; 
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.tarjeta img {
+    width: 100%;
+}
+
+.tarjeta:hover {
+    transform: scale(1.05);
+    background-color: white;
+}
+
+.boton {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background: #3d348b;
+    box-shadow: 0 5px #2c0b8e;
+  }
+  .boton:hover {
+    box-shadow: 0 3px #2c0b8e;
+    top: 1px;
+  }
+  .boton:active {
+    box-shadow: 0 0 #2c0b8e;
+    top: 5px;
+  }
+
+
+@media (max-width: 600px) {
+    .contenedor_marcas {
+        grid-template-columns: repeat(2, 1fr); /* 2 columnas en pantallas pequeñas */
+        padding: 15px;
+    }
+    
+    .tarjeta {
+        max-width: 180px; /* Tamaño máximo de 180px en pantallas pequeñas */
+    }
+}
+
+
+

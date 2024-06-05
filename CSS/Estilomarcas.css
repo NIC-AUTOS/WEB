@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:white;
+}
+
+
+.contenedor {
+    text-align: center;
+    padding: 20px;
+    background-color: #003366;
+    color: white;
+}
+
+
+h4 {
+    margin: 0;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.contenedor_marcas{
+    display: flex;
+    padding: 60px 70px;
+    gap: 10px;
+}
+
+.tarjeta{
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    border: 1px solid white;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    align-items: center;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.tarjeta:hover {
+    transform: scale(1.05);
+    background-color: white;
+}
+
+
+
+@media (max-width: 600px) {
+    .contenedor {
+        padding: 15px;
+    }
+    
+    h4 {
+        font-size: 20px;
+    }
+}

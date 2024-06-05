@@ -1,0 +1,101 @@
+@font-face {
+    font-family: Toyota;
+    src: url("fontToyota.ttf");
+}
+
+
+body {
+    font-family: Toyota;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.contenedor {
+    text-align: center;
+    padding: 20px;
+    background-color: #003366;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor img {
+    max-width: 100%;
+    height: auto;
+    max-height: 90px; 
+}
+
+.titulo{
+    text-align: center;
+    color: #24292E;
+    font-size: 20px;
+}
+
+
+form {
+    width: 80%; 
+    max-width: 600px; 
+    margin: 0 auto; 
+    padding: 20px;
+    background-color: #f9f9f9; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+
+form label {
+    display: block; 
+    margin-bottom: 5px; 
+    color: #333; 
+}
+
+
+form input[type="text"],
+form input[type="email"],
+form select {
+    width: 100%; 
+    padding: 10px; 
+    margin-bottom: 15px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    box-sizing: border-box; 
+}
+
+
+form input[type="submit"] {
+    width: 100%; 
+    padding: 10px; 
+    background-color: #003366; 
+    color: #fff; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+
+
+form input[type="submit"]:hover {
+    background-color: #002244; 
+}
+
+
+
+@media (max-width: 600px) {
+    .contenedor {
+        padding: 15px;
+    }
+
+    .contenedor img {
+        max-height: 80px; 
+    }
+
+    .titulo {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .titulo h4 {
+        font-size: 20px;
+    }
+}

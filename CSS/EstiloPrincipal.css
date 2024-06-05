@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: black;
+    color:#333;
+}
+
+/* Estilos del header */
+header {
+    background: rgb(5,55,133);
+    background: linear-gradient(90deg, rgba(5,55,133,1) 0%, rgba(0,211,255,1) 100%); 
+    color: #fff;
+    padding: 10px 0;
+}
+
+
+header .logo img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100px; 
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: white;
+    color: black;
+}
+
+
+
+
+
+/* Oculta todas las diapositivas por defecto */
+.mySlides {
+    display: none;
+  }
+  
+  /* Mostrar la diapositiva actual */
+  .mySlides.fade {
+    display: block;
+    animation: fadeEffect 30s ease-in-out infinite;
+  }
+  
+  /* Efecto de fundido */
+  @keyframes fadeEffect {
+    0%, 100% {
+      opacity: 0;
+    }
+    25%, 75% {
+      opacity: 1;
+    }
+  }
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+    }
+
+    nav a {
+        margin: 5px 0;
+    }
+}
+
+/*Estilo de Inicio*/
+
+#Inicio {
+    padding: 100px;
+    background-color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: blue;
+}
+
+#Inicio h2{
+    font-size: 50px;
+}
+
+#promociones {
+    padding: 100px;
+    background-color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: blue;
+}
+
+#testimonios {
+    padding: 100px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+#beneficios {
+    padding: 100px;
+    background-color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: blue;
+}
+
+#contacto {
+    padding: 100px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+#mapa {
+    padding: 100px;
+    text-align: center;
+}
+
+.slideshow-container {
+    justify-content: center;
+    align-items: center;
+
+}
+
+img {
+    display: block;
+    margin: auto;
+    align-items: center;
+    width:65%
+}

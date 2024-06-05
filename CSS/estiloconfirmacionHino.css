@@ -1,0 +1,110 @@
+@font-face {
+  font-family: Toyota;
+  src: url(fontToyota.ttf);
+}
+body {
+  font-family: Toyota;
+  
+}
+
+.contenedor {
+  background-size: cover; 
+  background-position: center;
+  
+}
+
+h3 {
+  color:#003366;
+  text-align: center;
+}
+
+p {
+  color: #003366;
+  margin-bottom: 10px;
+}
+
+p.label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+p.value {
+  display: inline;
+}
+
+.Mostrar {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.Mostrar p {
+  margin: 10px 0;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.Mostrar p:last-child {
+  margin-bottom: 0;
+}
+
+.Mostrar h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+
+.boton {
+box-shadow: 3px 4px 0px 0px #1564ad;
+background:linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
+background-color:#79bbff;
+border-radius:5px;
+border:1px solid #337bc4;
+display:inline-block;
+cursor:pointer;
+color:white;
+font-size:17px;
+font-weight:bold;
+padding:12px 44px;
+text-decoration:none;
+text-shadow:0px 1px 0px #528ecc;
+}
+.boton:hover {
+background:linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
+background-color:#378de5;
+}
+.boton:active {
+position:relative;
+top:1px;
+}
+
+.boton {
+	box-shadow: 3px 4px 0px 0px #8a2a21;
+	background:linear-gradient(to bottom, #c62d1f 5%, #f24437 100%);
+	background-color:#c62d1f;
+	border-radius:18px;
+	border:1px solid #d02718;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #810e05;
+}
+.boton:hover {
+	background:linear-gradient(to bottom, #f24437 5%, #c62d1f 100%);
+	background-color:#f24437;
+}
+.boton:active {
+	position:relative;
+	top:1px;
+}
+
+
